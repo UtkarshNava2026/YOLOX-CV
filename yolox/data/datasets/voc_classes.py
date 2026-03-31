@@ -2,26 +2,11 @@
 # -*- coding:utf-8 -*-
 # Copyright (c) Megvii, Inc. and its affiliates.
 
-# VOC_CLASSES = ( '__background__', # always index 0
+# NOTE: a 1-element tuple needs a trailing comma; otherwise it's just a string.
 VOC_CLASSES = (
-    "aeroplane",
-    "bicycle",
-    "bird",
-    "boat",
-    "bottle",
-    "bus",
-    "car",
-    "cat",
-    "chair",
-    "cow",
-    "diningtable",
-    "dog",
-    "horse",
-    "motorbike",
     "person",
-    "pottedplant",
-    "sheep",
-    "sofa",
-    "train",
-    "tvmonitor",
+    "forklift",
+    "head",
+    "helmet",
+    "safety_vest"
 )
